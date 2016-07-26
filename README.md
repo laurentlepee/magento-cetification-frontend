@@ -16,21 +16,24 @@ Magento skins files :
 For create a theme (exemple : mypackage) you need to create the following :
 
 `app/design/mypackage/default/layout`     
-`app/design/mypackage/default/template`
+`app/design/mypackage/default/template`  
 `app/design/mypackage/default/locale`
 
 &
 
 `skin/frontend/mypackage/default/css`     
 `skin/frontend/mypackage/default/images`    
-`skin/frontend/mypackage/default/js`
+`skin/frontend/mypackage/default/js`   
+
 
 Next create a local.xml in layout for update or change default theme layout.    
 `app/design/mypackage/default/layout/local.xml`
 
+
 > Never touch the `base/default` you need it for the fallback system
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Admin design package")
+
+![alt text](/common/images/admin-design-package.png "Admin design package")
 
 #### 1.2 Configure design fallback using the options found on the admin panel under *System > Configuration > Design*
 
