@@ -73,6 +73,7 @@ Exam proportion: (19%)
 *  [Magento Layout XML Part 1](http://magebase.com/magento-tutorials/demystifying-magentos-layout-xml-part-1/)
 *  [Magento Layout XML Part 2](http://magebase.com/magento-tutorials/digging-deeper-into-magentos-layout-xml-part-2/)
 * [Using local.xml for overriding or updating xml structure](http://inchoo.net/magento/using-local-xml-for-overriding-or-updating-xml-structure/)
+* [Layout XML Directives – Handles, Block, Reference, Action, Remove, Update](http://blog.belvg.com/layout-xml-directives-handles-block-reference-action-remove-update.html)
 * [Use a Local.xml File](http://blog.belvg.com/use-a-local-xml-file.html)
 
 ### 3. Create and Customize Template Files
@@ -161,6 +162,7 @@ Exemple catalog category pages :
 `core/text_list`: Some blocks like content, left, right etc. are of type core/text_list. When these blocks are rendered, all their child blocks are rendered automatically without the need to call the `getChildHtml()` method.
 
 **Links :**
+* [Layout Element – . Block Type. Define an Output Block](http://blog.belvg.com/layout-element-block-type-define-an-output-block.html)
 * [The most misunderstood concept in Magento](https://blog.philwinkle.com/the-most-misunderstood-concept-in-magento/)
 * [Custom Block Development in Magento](http://code.tutsplus.com/tutorials/custom-block-development-in-magento--cms-23104)
 
@@ -187,6 +189,10 @@ Magento breaks its theme files into separate directories like this to allow you 
 `skin/frontend/mypackage/default/css`  
 `skin/frontend/mypackage/default/images`  
 `skin/frontend/mypackage/default/js`
+
+**Links :**
+* [Parent/Child Themes](http://alanstorm.com/magento_parent_child_themes)
+
 
 ### 6. Customize and Create JavaScript Within the Magento Framework
 ---
@@ -234,6 +240,8 @@ Exam proportion: (8%)
 **Links :**
 * [Prototype.js](http://prototypejs.org/learn/)
 * [Prototype.js for jQuery Afficionados](https://blog.philwinkle.com/prototype-js-for-jquery-afficionados/)
+* [Extending javascript methods Magento way](http://inchoo.net/magento/extending-javascript-methods-magento-way/)
+* [JavaScript translations (translate.js)](http://bartosz-gorski.com/magento/magento-1-7-and-1-8-javascript-translations-translate-js/)
 
 ### 7. Use CSS Effectively to Customize Magento Look and Feel
 ---
@@ -261,6 +269,9 @@ Exam proportion: (9%)
 
 Exam proportion: (12%)
 
+
+
+
 ### 9. Correctly Use the Admin Configuration Scopes (Default/Website/Store View Fallback)
 ---
 
@@ -274,7 +285,27 @@ Exam proportion: (6%)
 
 Exam proportion: (4%)
 
+10.1 Create and change translations
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.1.1 Understand the prioritization of translations methods
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - Theme locale translate.csv file  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - The database table core_translate
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.1.2 Understand the pros and the cons of applying translations via the translate.csv file versus the core_translate table
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.1.3 Understand how to apply a module scope to a translation
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.1.4 Understand the inline translation feature
+
+10.2 Configure time zones and locale settings using the Admin panel
+
+10.3 Configure currencies  
+
+**Links :**
+* [Internationalization](http://blog.belvg.com/magento-certified-developer-exam-internationalization.html)
+* [Inline translation in Magento](http://inchoo.net/magento/inline-translation-in-magento/)
+* [Manage Translation System in Magento](https://www.atwix.com/magento/manage-translation-system/)
 
 ## Study Guide Questions
 
