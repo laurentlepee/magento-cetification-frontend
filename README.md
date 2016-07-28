@@ -165,6 +165,7 @@ Exemple catalog category pages :
 * [Layout Element – . Block Type. Define an Output Block](http://blog.belvg.com/layout-element-block-type-define-an-output-block.html)
 * [The most misunderstood concept in Magento](https://blog.philwinkle.com/the-most-misunderstood-concept-in-magento/)
 * [Custom Block Development in Magento](http://code.tutsplus.com/tutorials/custom-block-development-in-magento--cms-23104)
+* [Add a New Reference in Magento](http://inchoo.net/magento/custom-reference-structural-block/)
 
 ### 5. Identify Where to Locate Files and Create New Files in the Theming-related Directory Structure
 ---
